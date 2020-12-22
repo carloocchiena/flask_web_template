@@ -40,7 +40,6 @@ def input_page():
     return '''
         <html>
             <body>
-                {errors}
                 <h1> Event Virtualize </h1>
                 <h2>Crea il tuo evento online in 3 secondi!</h2>
                 <p>Dammi un po' di dati:</p>
@@ -49,6 +48,7 @@ def input_page():
                     <p><input name="budget" placeholder="Budget a disposizione" /></p>
                     <p><input type="submit" value="Elabora!" /></p>
                 </form>
+                {errors}
             </body>
         </html>
     '''.format(errors=errors)
