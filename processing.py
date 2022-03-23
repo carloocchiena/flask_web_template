@@ -1,6 +1,4 @@
 def virtual(people, budget):
-
-
     if people < 100 and budget < 1000:
         people_a =  "Un evento di queste dimensioni si gestisce bene con Google Meet. Che tra l'altro, è anche adatto al tuo budget."
     elif people < 100 and budget > 1000:
